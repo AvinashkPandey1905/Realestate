@@ -1,0 +1,83 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+  border-right-width: thin;
+  border-color: #000;
+}
+
+.sidebar {
+  width: 16%;
+  background-color: #f1f1f1;
+  padding: 15px;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.app-menu {
+  height: 85vh;
+}
+
+.app-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 25%;
+}
+
+.app-menu li {
+  margin-bottom: 10px;
+  align-items: center;
+}
+.app-menu ul li a img{
+  margin-bottom: -5px;
+  margin-right: 5px ;
+}
+.app-menu a {
+  color: var(--6-f-6-f-6-f, #6F6F6F);
+font-family: Space Grotesk;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 19.6px */
+
+  text-align: left;
+  margin-left: 25%;
+  text-decoration: none;
+  color: #000;
+  display: block;
+  padding: 8px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.app-menu a:hover {
+  background-color: transparent;
+}
+
+.content {
+  flex: 1;
+  padding: 15px;
+  margin-left: 220px;
+}
+
+.lgButton{
+display: flex;
+margin-top: auto;
+padding-left: 20px;
+margin-top: 20px;
+}
+.lgButton button{
+color: var(--6-f-6-f-6-f, #6F6F6F);
+font-family: Space Grotesk;
+font-size: 18px;
+padding-left: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 19.6px */
+background-color: transparent;
+border: none;
+cursor: pointer;
+}
+.lgButton button:hover{
+transform: scale(1.1);
+}

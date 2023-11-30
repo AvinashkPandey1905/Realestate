@@ -1,0 +1,40 @@
+<div class="app-container">
+  <div class="sidebar">
+    <div class="app-menu">
+      
+      <app-header></app-header>
+      <ul>
+        <li>
+          <a routerLink="/dashboard"><img src="../assets/i1.svg" />Dashboard</a>
+        </li>
+        <li>
+          <a routerLink="/properties"
+            ><img src="../assets/i2.svg" />Properties</a
+          >
+        </li>
+        <li>
+          <a routerLink="/contacts"><img src="../assets/i3.svg" />Contacts</a>
+        </li>
+        <li>
+          <a routerLink="/listing"><img src="../assets/i4.svg" />Listing</a>
+        </li>
+        <li>
+          <a routerLink="/clients"><img src="../assets/i5.svg" />Clients</a>
+        </li>
+        <li>
+          <a routerLink="/reports"><img src="../assets/i6.svg" />Reports</a>
+        </li>
+        <li>
+          <a routerLink="/setting"><img src="../assets/i7.svg" />Settings</a>
+        </li>
+      </ul>
+    </div>
+    <hr class="line" />
+      <div class="lgButton">
+            <img src="../assets/logout.svg" /><button>Logout</button>
+      </div>
+  </div>
+  <div class="content">
+    <router-outlet></router-outlet>
+  </div>
+</div>

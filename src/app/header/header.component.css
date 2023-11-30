@@ -1,0 +1,39 @@
+.header-container {
+  padding: 10px;
+  justify-content: center;
+  display: flex;
+}
+.profile{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.profile img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80px;
+  margin-top: 40px;
+  background-color: rgb(251,234,184);
+  border-radius: 50%;
+}
+
+.agent{
+  color: var(--0-c-0507, #0C0507);
+  text-align: center;
+  font-family: Urbanist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+margin-top: 20px;}
+
+  .name{
+      color: var(--0-c-0507, #0C0507);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Space Grotesk;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 155.556% */
+  }

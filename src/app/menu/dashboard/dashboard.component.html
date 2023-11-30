@@ -1,0 +1,220 @@
+<div class="dashboard-container">
+  <div class="header">
+    <div class="headerhead">Dashboard</div>
+    <div class="headericon">
+    
+<head>
+  <!---->
+</head>
+
+      <div class="iconbg"><img src="../../../assets/Search.svg" /></div>
+      <div class="iconbg"><img src="../../../assets/Notification.svg" /></div>
+    </div>
+  </div>
+
+  <!-- First Section -->
+
+  <div class="section-first">
+    <div class="section_a">
+      <div class="box-1">
+        <div class="text">
+          Enjoy your<br />
+          first home sale<br />
+          <button class="explore">Explore Now</button>
+        </div>
+      </div>
+      <div class="picture">
+        <img src="../../../assets/home-png 1.svg" />
+      </div>
+    </div>
+
+    <div class="section_b">
+      <div class="cont-1">
+        <p>Income</p>
+        <p class="dollar">
+          $34.1K
+          <span class="percentage"
+            ><img src="../../../assets/Icon.svg" />105.23%</span
+          >
+        </p>
+      </div>
+      <div class="cont-2">
+        <p>Expense</p>
+        <p class="dollar">
+          $34.1K
+          <span class="percentage"
+            ><img src="../../../assets/Icon.svg" />105.23%</span
+          >
+        </p>
+      </div>
+      <div class="cont-3">
+        <p>Profit</p>
+        <p class="dollar">
+          $34.1K
+          <span class="percentage"
+            ><img src="../../../assets/Icon.svg" />105.23%</span
+          >
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- First Section -->
+
+<!-- Second Section -->
+  <!--Charts-->
+  <div class="analytics">
+    <div class="sales-head">
+      <div class="sales-div-1">
+        <div class="sale-d1">Sales Analytics</div>
+        <div class="sale-d2">
+          <button class="button-1">Nov, 2023</button>
+        </div>
+      </div>
+      <div class="sales-div-2">
+        <div class="doughnut" >
+          <div>
+            <canvas id="doughnutChart" width="400" height="300"></canvas>
+          </div>
+          
+        </div>
+        <div class="data">
+          <div class="doughnutdata">
+
+            <div class="dd1">
+              <div class="dd1a">Online sales<br/><p>$3,425</p></div>
+              <div class="dd1a">Offline Sales<br/><p>$3,120</p></div>
+            </div>
+
+            <div class="dd1">
+              <div class="dd1a">Agent See<br/><p>$2,472</p></div>
+              <div class="dd1a">Marketing Sales<br/><p>$5,120</p></div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+
+    <div class="income">
+      <div class="income-head">
+        <div class="income-div-1">Income Statistics</div>
+        <div class="income-div-2">
+          <div class="dropdown">
+            <button onclick="toggleDropdown()" class="dropbtn">Select an option</button>
+            <div id="myDropdown" class="dropdown-content">
+              <ul>
+                <a href="#">Option 1</a>
+                <a href="#">Option 2</a>
+                <a href="#">Option 3</a>
+              </ul>
+              
+              <!-- Add more options as needed -->
+            </div>
+          </div>
+          
+          <!-- <div class="dropdown">
+          <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Last month
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" >Oct</a></li>
+            <li><a class="dropdown-item" >NoV</a></li>
+            <li><a class="dropdown-item" >Dec</a></li>
+          </ul>
+        </div> -->
+      </div>
+      </div>
+      <div>
+        <canvas id="barChart" width="400" height="300"></canvas>
+      </div>
+    </div>
+  </div>
+  <!--Charts-->
+
+  <!-- Third Section -->
+
+  <div class="third_section">
+    <div class="third1"> 
+       <div class="headthird">Sales Reports</div>
+       <div class="table-data">
+        <div class="order">
+          
+          <table>
+            <thead>
+              <tr>
+                <th>Sales By</th>
+                <th>Property name</th>
+                <th>Sales Type</th>
+                <th>Price</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody >
+              <tr class="tablebottom">
+                <td>
+                  <img src="../../../assets/user-1.jpg">
+                  <p>Allena joe</p>
+                </td>
+                <td>Lafayette, California</td>
+                <td>Sale</td>
+                <td>$5,447.00</td>
+                <td><span class="status paid">Paid</span></td>
+              </tr>
+              <tr class="tablebottom">
+                <td>
+                  <img src="../../../assets/user-1.jpg">
+                  <p>Elston Gullan</p>
+                </td>
+                <td>Lasansing, Ilinois</td>
+                <td>Rent</td>
+                <td>$4,965.00</td>
+                <td><span class="status pending">Pending</span></td>
+              </tr>
+              <tr class="tablebottom">
+                <td>
+                  <img src="../../../assets/user-1.jpg">
+                  <p>James</p>
+                </td>
+                <td>Newyork NY, US</td>
+                <td>Rent</td>
+                <td>$5,875.00</td>
+                <td><span class="status paid">Paid</span></td>
+              </tr>
+              <tr class="tablebottom">
+                <td>
+                  <img src="../../../assets/user-1.jpg">
+                  <p>James</p>
+                </td>
+                <td>Newyork NY, US</td>
+                <td>Rent</td>
+                <td>$5,875.00</td>
+                <td><span class="status paid">Paid</span></td>
+              </tr>
+              <tr class="tablebottom">
+                <td>
+                  <img src="../../../assets/user-1.jpg">
+                  <p>James</p>
+                </td>
+                <td>Newyork NY, US</td>
+                <td>Rent</td>
+                <td>$5,875.00</td>
+                <td><span class="status pending">Pending</span></td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </div>
+    </div>
+
+
+
+  </div>
+
+  <div class="third2">
+    Sales by Region<br />
+    <img src="../../../assets/Map.svg" />
+  </div>
+
+<!-- Third Section -->
